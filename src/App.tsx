@@ -1,12 +1,12 @@
-//import { Button } from "@mui/material";
-import { Button, Container, Typography } from "@mui/material";
+import { Container } from "@mui/material";
+import Product from "./Components/Product";
 
 export default function App() {
-return(
-  <Container>
-    <h1>App</h1>
-    <Typography variant="h3">H3 titulo</Typography>
-    <Button variant="contained">Boton Nuevo</Button>
-  </Container>
-);
+  return(
+    <Container>
+      <Product>
+
+      </Product>
+    </Container>
+  )
 }
