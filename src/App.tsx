@@ -1,12 +1,10 @@
 import { Container } from "@mui/material";
-import Product from "./Components/Product";
+import Blueecard from "./Components/BluueCard";
 
 export default function App() {
   return(
-    <Container>
-      <Product>
-
-      </Product>
+    <Container sx={{mt:5}}>
+      <Blueecard/>
     </Container>
   )
 }
